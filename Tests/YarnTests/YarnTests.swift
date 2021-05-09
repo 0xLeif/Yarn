@@ -20,14 +20,5 @@
                     true
                 }
             )
-            
-            func someFunction() throws -> Bool {
-                true
-            }
-            
-            Yarn.expectFunctionToReturnTrue(someFunction)
-            Yarn.expectClosureToReturnFalse {
-                false
-            }
         }
     }
